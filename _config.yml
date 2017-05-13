@@ -32,10 +32,7 @@ comments :
     short_name : ""
 
 # Internal nav
-nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+
 
 # All translation keys
 
