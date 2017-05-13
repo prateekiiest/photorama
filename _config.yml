@@ -2,7 +2,7 @@
 title: Portfolio
 email: ""
 description: "Portfolio"
-url: "https://prateekiiest.github.io"
+url: "http://prateekiiest.github.io"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
@@ -32,7 +32,10 @@ comments :
     short_name : ""
 
 # Internal nav
-
+nav:
+  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
+  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
+  - ABOUT: "https://sunbliss.github.io/photorama/about/"
 
 # All translation keys
 
