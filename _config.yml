@@ -1,8 +1,8 @@
 # Site settings
-title: PHOTORAMA
+title: Portfolio
 email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
+description: "Portfolio"
+url: "https://prateekiiest.github.io"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
