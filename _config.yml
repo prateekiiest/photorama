@@ -38,13 +38,6 @@ nav:
   - ABOUT: "https://sunbliss.github.io/photorama/about/"
 
 # All translation keys
-translations:
- # 404.html
-  permalink: "/404.html"
-
-# Server
-destination:      	 ./_site
-port:             	 4000
 
 
 # Build settings
