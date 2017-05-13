@@ -2,7 +2,7 @@
 title: Portfolio
 email: ""
 description: "Portfolio"
-url: ""
+url: "prateekiiest.github.io"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Prateek Chanda
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
