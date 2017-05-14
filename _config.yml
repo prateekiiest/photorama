@@ -4,13 +4,10 @@ email: ""
 description: "My Portfolio"
 url: "https://prateekiiest.github.io"
 baseurl: "/photorama"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+facebook_username: "Prateek Chanda"
+
+github_username:  "prateekiiest"
+
 share: true
 
 # Owner/author information
@@ -36,6 +33,7 @@ nav:
   - GALLERY: "https://prateekiiest.github.io/photorama/gallery/"  
   - JOURNAL: "https://prateekiiest.github.io/photorama/journal/"
   - ABOUT: "https://prateekiiest.github.io/photorama/about/"
+  - BLOG: "https://medium.com/@prateekkol21"
 
 # All translation keys
 
