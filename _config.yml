@@ -30,8 +30,10 @@ comments :
 
 # Internal nav
 nav:
-  - ABOUT1: "https://prateekiiest.github.io/photorama/about/"
-  - ABOUT: "about"
+  - ABOUT: "https://prateekiiest.github.io/photorama/about/"
+  - PROJECTS: "http://aboutmeprateek.blogspot.in/2017/03/projects.html"
+  - OPEN SOURCE: "http://aboutmeprateek.blogspot.in/2017/03/open-source-experience.html"
+  - VOLUNTEERING: "http://aboutmeprateek.blogspot.in/2017/03/volunteering-experience.html"
   - BLOG: "https://medium.com/@prateekkol21"
 
 # All translation keys
