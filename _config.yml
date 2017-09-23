@@ -36,7 +36,6 @@ comments :
 # Internal nav
 nav:
   - ABOUT: "https://prateekiiest.github.io/photorama/about/"
-  
   - PROJECTS: "https://prateekiiest.github.io/photorama/gallery/"
   
   - OPEN SOURCE: "http://aboutmeprateek.blogspot.in/2017/03/open-source-experience.html"
