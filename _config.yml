@@ -45,6 +45,7 @@ nav:
 # All translation keys
 
 
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
