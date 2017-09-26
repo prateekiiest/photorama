@@ -32,7 +32,6 @@ comments :
   disqus :
     short_name : ""
 
-
 # Internal nav
 nav:
   - ABOUT: "https://prateekiiest.github.io/photorama/about/"
