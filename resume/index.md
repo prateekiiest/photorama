@@ -2,7 +2,7 @@
 ---
 layout: page
 description: "Journal"
-title: "Open Source"
+title: "Resume"
 active: journal
 header-img: "img/writing-bg.jpg"
 ---
