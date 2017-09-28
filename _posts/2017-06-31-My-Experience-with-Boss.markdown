@@ -4,9 +4,9 @@ title:      "My Experience with BOSS"
 subtitle:   "Bountiful Summer"
 active: journal
 image:
-  feature: "pc008.jpg"
+  feature: "pc004.jpg"
 date:       2017-06-31
-header-img: "img/postcover/pc008.jpg"
+header-img: "img/postcover/pc004.jpg"
 tags: [tag01, tag03]
 categories: [cat01, cat03]
 comments: false
