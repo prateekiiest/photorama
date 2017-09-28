@@ -21,7 +21,7 @@ As the name suggests, an open source event just like GSOC - this was great.
 
 I was excited. This summer isn't gonna be boring.
 
-<iframe src="http://lab.codingblocks.com/boss/" style="border:0; width:100%; height: 596px"></iframe>
+
 One thing that I liked about BOSS is that it is open to all.
 
 A Real Open Source Event
@@ -43,4 +43,4 @@ A cup of coffee, a good network connection and that's how I go on Open Sourcing.
 
 Currently within top 10 contributors in the competition.
 
-<iframe src="http://boss.codingblocks.com/leaderboard/" style="border:0; width:100%; height: 596px"></iframe>
+
