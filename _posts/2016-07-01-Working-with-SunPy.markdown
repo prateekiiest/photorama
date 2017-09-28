@@ -5,10 +5,10 @@ subtitle: "Introduction to a real life open source research"
 active: "journal"
 image:
   feature: "pc008.jpg"
-date: "2016-11-04"
+date: "2016-07-01"
 header-img: "img/postcover/pc008.jpg"
-tags: [tag03, tag04]
-categories: [cat03, cat04]
+tags: [tag02, tag03]
+categories: [cat02, cat03]
 comments: "true"
 ---
 
