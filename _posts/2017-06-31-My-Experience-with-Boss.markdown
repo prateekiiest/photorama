@@ -5,7 +5,7 @@ subtitle:   "Bountiful Summer"
 active: journal
 image:
   feature: "pc008.jpg"
-date:       2016-03-25
+date:       2017-06-31
 header-img: "img/postcover/pc008.jpg"
 tags: [tag01, tag03]
 categories: [cat01, cat03]
