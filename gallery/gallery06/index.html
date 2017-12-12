@@ -18,7 +18,7 @@ images:
 </head>
 
     <body>
- 
+
 	<section id="content" role="main">
 		<div class="wrapper">
 	<br><br>
@@ -27,16 +27,16 @@ images:
 
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
-		
-{% for image in page.images %}  		
+
+{% for image in page.images %}
 
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-						
-					</header>	
+
+					</header>
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.caption}}</h3>
@@ -44,22 +44,33 @@ images:
 						</div>
 					</figcaption>
 				</figure>
-				
+
 {% endfor %}
 
 			</div>
 
+<h3>SunPy - Solar Physics with Python </h3>
+
+<h4>Description</h4>
+
+SunPy is a community-developed free and open-source software package for solar physics. It aims to be provide a comprehensive data analysis environment that allows researchers within the field of solar physics to carry out their tasks with the minimal effort.
+SunPy is written using the Python programming language and is build upon the scientific Python environment which includes several core packages such as NumPy, SciPy, Matplotlib and Pandas. Since SunPy deals with key astrophysical concepts, its development is closely associated with that of Astropy, which is a fundamental package within the Python astronomy ecosystem.
+
+<h4> My Work on SunPy</h4>
+
+Most of my work have been listed in [Working With SunPy Page](https://prateekiiest.github.io/photorama/journal/Working-with-SunPy/)
+
 		</div><!-- END .wrapper -->
 	</section>
 
-<!-- jQuery -->    
+<!-- jQuery -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- include image popups -->
 <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
 <script src="{{ site.baseurl }}/js/retina.min.js"></script>
 <!-- include Masonry -->
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
 <!-- include carousel plugins -->

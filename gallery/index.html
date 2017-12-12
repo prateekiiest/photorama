@@ -47,25 +47,25 @@ images:
 
 
     <body class="gallery">
- 
+
 	<section id="content" role="main">
 		<div class="wrapper">
-	
+
 			<h2>{{page.title}}</h2>
-			
+
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
-				
-{% for image in page.images %}  	
+
+{% for image in page.images %}
 
 	               <figure class="gallery-item">
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
-		       
+
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
 
-					</header>	
+					</header>
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.gallery-name}}</h3>
@@ -74,11 +74,11 @@ images:
 					</figcaption>
                        </figure>
 				</figure>
-							
-{% endfor %}		
-				
+
+{% endfor %}
+
 			</div>
-			
+
 		</div><!-- END .wrapper -->
 	</section>
 
@@ -86,12 +86,12 @@ images:
 <br>
 <h6><p>Image Source: <a href="https://unsplash.com/photos/YOT6kS8YtEA/">Unsplash</a></p></h6>
 
-<!-- jQuery -->    
+<!-- jQuery -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/js/retina.min.js"></script>
 <!-- include Masonry -->
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
 <!-- include carousel plugins -->
