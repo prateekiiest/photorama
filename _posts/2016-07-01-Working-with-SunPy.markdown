@@ -12,6 +12,7 @@ categories: [cat02, cat03]
 comments: "true"
 ---
 
+
 ### My First Break through in Open Source (Science).
 
 Like I said, I always had been an avid open source contributor. It all started when I was working on Udacity Projects on Machine Learning and Android Applications.
