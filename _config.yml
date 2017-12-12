@@ -8,16 +8,15 @@ baseurl: "/photorama"
 
 facebook_username: "prateek.chanda.1"
 github_username:  "prateekiiest"
- 
- 
- 
- 
+
+
+
+
 share: true
-# Owner/author information
+# Owner information
 
 owner:
   name: Prateek Chanda
-  
   avatar: avatar.png
   favicon: favicon.ico
   info: portfolio website
@@ -35,7 +34,7 @@ comments :
     short_name : ""
 
 
- 
+
 # Internal nav
 nav:
   - ABOUT: "https://prateekiiest.github.io/photorama/about/"
@@ -63,7 +62,7 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
+gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
