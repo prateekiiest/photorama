@@ -7,8 +7,8 @@ image:
   feature: "pc004.jpg"
 date:       2017-06-31
 header-img: "img/postcover/pc004.jpg"
-tags: [tag01, tag03]
-categories: [cat01, cat03]
+tags: [0tag01, 0tag03]
+categories: [0cat01, 0cat03]
 comments: false
 ---
 

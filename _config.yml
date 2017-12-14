@@ -81,6 +81,7 @@ sitemap:
         - "/atom.xml"
         - "/feed.xml"
         - "/feed/index.xml"
+        
     include_posts:
         - "/writing/"
     change_frequency_name: "change_frequency"
