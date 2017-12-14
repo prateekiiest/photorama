@@ -2,7 +2,7 @@
 layout:     post
 title:      "My Experience with BOSS"
 subtitle:   "Bountiful Summer"
-active: journal
+active: journal0
 image:
   feature: "pc004.jpg"
 date:       2017-06-31
@@ -42,5 +42,3 @@ A cup of coffee, a good network connection and that's how I go on Open Sourcing.
 
 
 Currently within top 10 contributors in the competition.
-
-
