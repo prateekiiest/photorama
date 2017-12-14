@@ -38,7 +38,8 @@ nav:
   - ABOUT: "https://prateekiiest.github.io/photorama/about/"
   - PROJECTS: "https://prateekiiest.github.io/photorama/gallery/"
   - OPEN SOURCE: "https://prateekiiest.github.io/photorama/journal/ "
-  - VOLUNTEERING: "https://prateekiiest.github.io/photorama/journal0/"
+  - VOLUNTEERING: "http://aboutmeprateek.blogspot.in/2017/03/volunteering-experience.html
+"
   - RESUME: "https://drive.google.com/file/d/0B6_YgeXMpnKBb096bWNHWE05N2s/preview"
   - GITHUB CV: "https://resume.github.io/?prateekiiest"
   - BLOG: "https://medium.com/@prateekkol21"
@@ -65,10 +66,6 @@ permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
 
-paginate_path: "/journal0/page:num/"
-permalink: "/journal0/:title/"
-categories_path: "/journal0/category/"
-tags_path: "/journal0/tag/"
 
 gems:
  - jekyll-paginate
@@ -81,7 +78,6 @@ sitemap:
         - "/atom.xml"
         - "/feed.xml"
         - "/feed/index.xml"
-        
     include_posts:
         - "/writing/"
     change_frequency_name: "change_frequency"
