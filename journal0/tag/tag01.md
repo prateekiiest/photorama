@@ -1,6 +1,6 @@
 ---
-layout: "journal_by_tag"
+layout: "journal0_by_tag"
 tag: "tag01"
-permalink: "/journal/tag/tag01/"
+permalink: "/journal0/tag/tag01/"
 header-img: "img/archive-bg.jpg"
 ---

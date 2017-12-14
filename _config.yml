@@ -47,6 +47,8 @@ nav:
 
 
 
+
+
 # All translation keys
 
 
@@ -62,6 +64,12 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
+
+paginate_path: "/journal0/page:num/"
+permalink: "/journal0/:title/"
+categories_path: "/journal0/category/"
+tags_path: "/journal0/tag/"
+
 gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
