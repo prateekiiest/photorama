@@ -10,7 +10,7 @@ Here we generate all the tags.
 {% endcomment%}
 
 {% assign rawtags = "" %}
-{% for post in site.posts %}
+{% for post in site.posts0 %}
 {% assign ttags = post.tags | join:'|' | append:'|' %}
 {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
@@ -37,7 +37,7 @@ Here we generate all the tags.
 </h1>
 <br/>
 
-<div class="posts">
+<div class="posts0">
 <p>
 {% for tag in tags %}
 <a href="#{{ tag | slugify }}" style="text-decoration:none;"> {{ tag }} </a> &nbsp;&nbsp;
@@ -46,7 +46,7 @@ Here we generate all the tags.
 {% for tag in tags %}
 <h2 id="{{ tag | slugify }}" style="text-decoration:none;">{{ tag }}</h2>
 <div class="category-list">
-  {% for post in site.posts %}
+  {% for post in site.posts0 %}
   {% if post.tags contains tag %}
       <h3>
       <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none;">

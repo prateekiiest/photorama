@@ -12,22 +12,22 @@ header-img: "img/writing-bg.jpg"
 
 <body class="journal0">
 <div class="archive">
-  <h1 class="archive-title" style="display:inline-block;"> POSTS </h1>
+  <h1 class="archive-title" style="display:inline-block;"> posts0 </h1>
 
 <div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
     Browse by <a href="{{ site.baseurl }}/journal0/category/">Category</a> or <a href="{{ site.baseurl }}/journal0/tag/">Tag</a>
   </div>
 </div>
 
-<section class="section--postsWrapper">
+<section class="section--posts0Wrapper">
   <div class="container">
     <div class="blockGroup">
       <ul class="blockGroup-list">
 
-{% for post in paginator.posts %}
+{% for post in paginator.posts0 %}
 
 
- {% assign post = site.posts.first %}
+ {% assign post = site.posts0.first %}
   {% assign content = post.content %}
 
 <li class="block">
@@ -66,7 +66,7 @@ header-img: "img/writing-bg.jpg"
 <ul class="pager" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;" >
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer posts0</a>
     </li>
     {% endif %}
 
@@ -74,7 +74,7 @@ header-img: "img/writing-bg.jpg"
 
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older posts0 &rarr;</a>
     </li>
     {% endif %}
 </ul>
