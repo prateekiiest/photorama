@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Project 2"
-description: "A machine Learning Project"
-active: gallery
+title: "Volunteering for Code.org"
+description: "Hour of Code"
+active: gallery0
 
 header-img: "img/gallery-bg.jpg"
 album-title: "Boston Housing"
@@ -21,7 +21,7 @@ images:
 </head>
 
     <body>
- 
+
 	<section id="content" role="main">
 		<div class="wrapper">
 	<br><br>
@@ -30,16 +30,16 @@ images:
 
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
-		
-{% for image in page.images %}  		
+
+{% for image in page.images %}
 
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-						
-					</header>	
+
+					</header>
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.caption}}</h3>
@@ -47,7 +47,7 @@ images:
 						</div>
 					</figcaption>
 				</figure>
-				
+
 {% endfor %}
 
 			</div>
@@ -64,7 +64,7 @@ The data used here is loaded in (sklearn.datasets.load_boston) and comes from th
 <li>Mean house price: 22.533</li>
 <li>Median house price: 21.2</li>
 <li>Standard deviation of house price: 9.188</li>
-			
+
 <h3>Evaluating model performance</h3>
 
 The problem of predicting the housing prices is not a classification problem since the numbers changing with the time. So it is a Regression problem and uses regression problem's evaluation metrics for model evaluation.
@@ -80,7 +80,7 @@ Between 'MSE' and 'MAE' both can work well with this problem but I would rather 
 			<br><br>
 			Splitting the data
 
-			
+
 Learning the parameters of a prediction function and testing it on the same data is a methodological mistake: a model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data. This situation is called overfitting. To avoid it, it is common practice when performing a (supervised) machine learning experiment to hold out part of the available data as a test set X_test, y_test.(*)
 
 Hence to properly evaluate the model, the data we have must be split into two sets: a training set and a testing set to be able to:
@@ -106,26 +106,26 @@ Grid search is one of the algorithms used for tuning hyperparameters; true to it
 Grid search is dead simple to set up and trivial to parallelize. It is the most expensive method in terms of total computation time. However, if run in parallel, it is fast in terms of wall clock time.
 
 			<br><br>
-			
-			
+
+
 			The entire project is hosted on Github at <a href = "https://github.com/prateekiiest/boston_housing">Boston Housing</a>.
 			<br>
 			Fork and Contribute.
-			
-			
+
+
 </div>
-		
+
 		<!-- END .wrapper -->
 	</section>
 
-<!-- jQuery -->    
+<!-- jQuery -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- include image popups -->
 <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
 <script src="{{ site.baseurl }}/js/retina.min.js"></script>
 <!-- include Masonry -->
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
 <!-- include carousel plugins -->

@@ -1,20 +1,15 @@
 ---
 layout: page
-title: "Project 1"
-description: "A Machine Learning Project"
-active: gallery
+title: "TEDx IIEST Shibpur 2016"
+description: "Ideas Worth Spreading"
+active: gallery0
 header-img: "img/gallery-bg.jpg"
-album-title: "Titanic Survival Exploration"
+album-title: "TEDx IIEST Shibpur 2016"
 images:
  - image_path: /gallery/archive/g01/bg1.gif
-   caption: Sinking of the Titanic
+   caption: The Stage's Set
    copyright: © Code Sleep
- - image_path: /gallery/archive/g01/bg2.jpg
-   caption: History of Titanic
-   copyright: © Code Sleep
- - image_path: /gallery/archive/g01/bg3.jpg
-   caption: Data Analysis
-   copyright: © Code Sleep
+
 ---
 
 <html class="no-js" lang="en">
@@ -23,7 +18,7 @@ images:
 </head>
 
     <body>
- 
+
 	<section id="content" role="main">
 		<div class="wrapper">
 	<br><br>
@@ -32,16 +27,16 @@ images:
 
 			<!-- Gallery __-->
 			<div class="gallery masonry-gallery">
-		
-{% for image in page.images %}  		
+
+{% for image in page.images %}
 
 				<figure class="gallery-item">
 					<header class='gallery-icon'>
 
 <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup"  title="{{ image.caption }}" data-caption="{{ image.copyright }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-						
-					</header>	
+
+					</header>
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary" id="{{ image.caption }}">
 							<h3>{{image.caption}}</h3>
@@ -49,91 +44,36 @@ images:
 						</div>
 					</figcaption>
 				</figure>
-				
+
 {% endfor %}
 
 			</div>
-<h3> A Brief History of Time </h3>
-  
- 
-The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  
-On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew.
-<br>
-<br>
-			
-			
-    
-This sensational tragedy shocked the international community and led to better safety regulations for ships. One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew.  
 
-<br><br>
-			
-			
-Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
+<h3> Managing a TEDx event is hard ! </h3>
+
+
+In the spirit of ideas worth spreading, TEDx is a program of local,self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program , but individual TEDx events are self-organized (subject to  certain rules and regulations).
 
 <br>
 <br>
-<br>
-			<h3>The Project's Aim</h3>
-			
-In this project, decision functions are created that attempt to predict survival outcomes from the 1912 Titanic disaster based on each passenger’s features, such as sex and age.Started with a simple algorithm and increased its complexity 
-until I was able to accurately predict the outcomes for at least 80% of the passengers in the provided data. 
- 
+
+Likewise, I volunteered for this event and was a part of the core team as social media publicity manager
+where I worked on engaging more people to this event by sharing important information regarding this
+among the mass. The event was a brilliant hit, being the first ever TEDx event in any engineering college
+in the city of joy. And to be a part of it was like a blessing. I worked closely with a lovely supporting team who
+helped me manage the event , distribute event details among the audiences and reaching out to the TEDx speakers.
 
 <br>
-			<br>
-			
-			<h3> Requirements</h3>
-			
+<br>
 
-This project requires Python 2.7 and the following Python libraries installed:
+I look forward to working with this team again in future for another TEDx event coming this year.
 
-
-			<li>NumPy</li>
-			<li>Pandas</li>
-			<li>matplotlib</li>
-			<li>scikit-learn</li>
-			
-			<br><br>
-			
-			<h3>Code</h3>
-			
-Template code is provided in the notebook titanic_survival_exploration.ipynb notebook file. Additional supporting code can be found in titanic_visualizations.py
-
-This Notebook will show basic examples of:
-
-<h4>Data Handling</h4>
-			<li>Importing Data with Pandas</li>
-			<li>Cleaning Data</li>
-			<li>Exploring Data through Visualizations with Matplotlib</li>
-			<li>Data Analysis</li>
-			
-			<h4>Supervised Machine learning Techniques:</h4>
-			<li>Logit Regression Model</li>
-			<li>Plotting results</li>
-			<li>Support Vector Machine (SVM) using 3 kernels</li>
-			<li>Basic Random Forest</li>
-			<li>Plotting results</li>
-			
-			
-			<h4>Valuation of the Analysis</h4>
-			
-			<li>K-folds cross validation to valuate results locally</li>
-			<li>Output the results from the IPython Notebook to Kaggle</li>
-			
-			
-			<br><br>
-			
-			
-			The entire project is hosted on Github at <a href = "https://github.com/prateekiiest/titanic_survival_exploration">Titanic Survival Exploration</a>.
-			<br>
-			Fork and Contribute.
-		
 </div>
-		
+
 		<!-- END .wrapper -->
 	</section>
 
-<!-- jQuery -->    
+<!-- jQuery -->
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- include image popups -->
@@ -160,7 +100,7 @@ image: {
 
 <script src="{{ site.baseurl }}/js/retina.min.js"></script>
 <!-- include Masonry -->
-<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script>
 <!-- include mousewheel plugins -->
 <script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
 <!-- include carousel plugins -->
@@ -172,5 +112,5 @@ image: {
 <!-- Modernizr -->
  <script src="{{ site.baseurl }}/js/modernizr.js"></script>
 
-    
+
 </body></html>
