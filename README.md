@@ -2,8 +2,12 @@
 
 A theme for **jekyll**. 
 
+gethjnr
+djejt
+whej
+rhetj
 
-dgshhns adg aeg 
+ 
 
 Created for gh-pages (project page).
 
