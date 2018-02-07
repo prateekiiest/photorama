@@ -2,6 +2,9 @@
 
 A theme for **jekyll**. 
 
+
+dgshhns adg aeg 
+
 Created for gh-pages (project page).
 
 This template was crafted having in mind the photobloggers.
