@@ -2,19 +2,6 @@
 
 A theme for **jekyll**. 
 
-gethjnr
-djejt
-whej
-rhetj
-
-
-
-hetj
-jtrm
-teje
-k
-et
-
 Created for gh-pages (project page).
 
 This template was crafted having in mind the photobloggers.
